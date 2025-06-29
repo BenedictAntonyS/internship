@@ -1,7 +1,7 @@
 # Algo-Trading Prototype with ML and Google Sheets Integration
 
 ## Overview
-This project is a Python-based algo-trading prototype implemented in a Jupyter Notebook (`AlgoTrading.ipynb`). It fetches stock data for three NIFTY 50 stocks (`INFY.NS`, `TCS.NS`, `HDFCBANK.NS`), generates buy/sell signals using a rule-based strategy (RSI < 30 with 20-DMA > 50-DMA), applies machine learning models (Logistic Regression and Decision Tree) to predict next-day price movements, and logs trade details and portfolio analytics to Google Sheets. The code is designed for modularity and includes error handling, with potential for enhancements like Telegram notifications.
+This project is a Python-based algo-trading prototype implemented in a Jupyter Notebook (`AlgoTrading.ipynb`). It fetches stock data for three NIFTY 50 stocks (`INFY.NS`, `TCS.NS`, `HDFCBANK.NS`), generates buy/sell signals using a rule-based strategy (RSI < 40 with 20-DMA > 50-DMA), applies machine learning models (Logistic Regression and Decision Tree) to predict next-day price movements, and logs trade details and portfolio analytics to Google Sheets. The code is designed for modularity and includes error handling, with potential for enhancements like Telegram notifications.
 
 ## Objectives
 - Fetch daily stock data for `INFY.NS`, `TCS.NS`, and `HDFCBANK.NS` over 6 months using `yfinance`.
